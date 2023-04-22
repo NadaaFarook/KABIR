@@ -3,15 +3,18 @@ import BlueLogo from './assets/blueLogo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Syne } from 'next/font/google'
+import { useState } from 'react'
+import { RxCross1, RxHamburgerMenu } from 'react-icons/rx'
 
 const syne = Syne({
   subsets: ['latin'],
   weight: ['600', '800'] 
 })
 
-const  PrivacyPolicy = () => {
+const PrivacyPolicy = () => {
+  const [hamMenu, setHamMenu] = useState(false)
   return (
-    <div className='px-40 pt-5 mb-10'>
+    <div className='px-10 lg:px-20 xl:px-40 pt-5 mb-10'>
       <nav className='flex items-center justify-between'>
         <div className='flex gap-10'>
           <Link href='/' className='flex items-center gap-3'>
@@ -19,14 +22,28 @@ const  PrivacyPolicy = () => {
             Cyber Surakshit
           </Link>
 
-          <Link href='/about'>About</Link>
-          <Link href='/privacypolicy'>Privacy Policy</Link>
+          <Link className='hidden md:inline' href='/about'>About</Link>
+          <Link className='hidden md:inline' href='/privacypolicy'>Privacy Policy</Link>
         </div>
 
         <div>
-          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md`}>KABIR</button>
-          <button className='bg-black text-white px-10 py-2 rounded-md hover:bg-opacity-60 duration-200 ml-10 shadow-md'>Chat on Whatsapp</button>
+          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}>KABIR</button>
+          <button className='bg-black text-white px-10 py-2 rounded-md hover:bg-opacity-60 duration-200 ml-10 shadow-md hidden md:inline'>Chat on Whatsapp</button>
+
+          <RxHamburgerMenu onClick={() => setHamMenu(true)} className="md:hidden text-4xl cursor-pointer hover:bg-black hover:bg-opacity-30 p-1 rounded-sm duration-200" />
         </div>
+
+        <div className={`absolute w-full top-0 left-0 bg-white text-black px-5 py-3  flex-col gap-3 ${ hamMenu ? "flex" : "hidden"} shadow-md`}>
+          <RxCross1 onClick={() => setHamMenu(false)} className="absolute top-3 right-5 cursor-pointer" />
+          <Link className="block" href="/about">  About </Link>
+          <Link className="block" href="/privacypolicy"> Privacy Policy </Link>
+
+          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md w-1/2`}>KABIR</button>
+
+          <button className="bg-black px-3 py-2 rounded-md hover:bg-opacity-60 duration-200 w-1/2 text-white">
+            Chat on Whatsapp
+          </button>
+      </div>
       </nav>
 
       <h1 className={`${syne.className} text-5xl text-blue mt-20`}>Privacy Policy</h1>
