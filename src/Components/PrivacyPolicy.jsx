@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}>KABIR</button>
+          <button className={`${syne.className} font-extrabold bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}>KABIR</button>
           <button className='bg-black text-white px-10 py-2 rounded-md hover:bg-opacity-60 duration-200 ml-10 shadow-md hidden md:inline'>Chat on Whatsapp</button>
 
           <RxHamburgerMenu onClick={() => setHamMenu(true)} className="md:hidden text-4xl cursor-pointer hover:bg-black hover:bg-opacity-30 p-1 rounded-sm duration-200" />
