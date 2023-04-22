@@ -63,7 +63,7 @@ export default function Main() {
         </div>
 
         <Image className="w-[350px] h-[450px] md:w-[500px] md:h-[600px]" alt="Bot" src={Bot} />
-        <button className="bg-white text-black px-20 py-3 rounded-md -mt-2 font-medium shadow-md">
+        <button className="bg-white text-black px-20 py-3 rounded-md -mt-2 font-medium shadow-md md:hidden">
               GET STARTED
         </button>
       </div>
