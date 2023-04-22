@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Inter, Syne } from "next/font/google";
+import {  Syne } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "./assets/logo.png";
@@ -15,6 +15,7 @@ const syne = Syne({
 
 const Main = () => {
   const [hamMenu, setHamMenu] = useState(false);
+  
   return (
     <div
       className={` min-h-screen min-w-screen bg-blue text-white px-10 md:px-20 lg:px-40 pt-5 md:pt-10 overflow-hidden`}

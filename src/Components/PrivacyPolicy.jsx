@@ -1,4 +1,4 @@
-import React from 'react'
+"use client"
 import BlueLogo from './assets/blueLogo.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,7 +9,7 @@ const syne = Syne({
   weight: ['600', '800'] 
 })
 
-export default function PrivacyPolicy() {
+const  PrivacyPolicy = () => {
   return (
     <div className='px-40 pt-5 mb-10'>
       <nav className='flex items-center justify-between'>
@@ -46,3 +46,5 @@ export default function PrivacyPolicy() {
     </div>
   )
 }
+
+export default PrivacyPolicy
