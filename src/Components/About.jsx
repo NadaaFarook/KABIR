@@ -68,7 +68,7 @@ const About = () => {
         <div className="hidden lg:block">
           <Image width={300} className="ml-14 -mt-20" src={AboutMascot} />
 
-          <div className="flex gap-5 ml-16 xl:ml-16 mt-4">
+          <div className="flex gap-5 ml-16 xl:ml-16 mt-4 justify-between">
             <AiOutlineInstagram className="bg-blue rounded-full text-white text-4xl p-2 " />
             <BsTwitter className="bg-blue rounded-full text-white text-4xl p-2 " />
             <AiFillYoutube className="bg-blue rounded-full text-white text-4xl p-2 " />

@@ -12,7 +12,7 @@ const syne = Syne({
 const Navbar = ({ isWhite }) => {
   const [hamMenu, setHamMenu] = useState(false);
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between mb-auto z-10">
       <div className="flex gap-10">
         <Link href="/" className="flex items-center gap-3">
           <Image
@@ -24,8 +24,8 @@ const Navbar = ({ isWhite }) => {
           Cyber Surakshit
         </Link>
 
-        <Link href="/about">About</Link>
-        <Link href="/privacypolicy">Privacy Policy</Link>
+        <Link className="hidden sm:inline" href="/about">About</Link>
+        <Link className="hidden sm:inline" href="/privacypolicy">Privacy Policy</Link>
       </div>
 
       <div>
@@ -44,13 +44,13 @@ const Navbar = ({ isWhite }) => {
         />
 
         <div
-          className={`absolute w-full top-0 left-0 bg-white text-black px-5 py-3  flex-col gap-3 ${
+          className={`absolute w-full top-0 left-0 bg-white text-black px-5 py-3 pt-[40px] flex-col gap-6 ${
             hamMenu ? "flex" : "hidden"
           } shadow-md`}
         >
           <RxCross1
             onClick={() => setHamMenu(false)}
-            className="absolute top-3 right-5 cursor-pointer"
+            className="absolute text-4xl p-1 top-6 right-10 cursor-pointer"
           />
           <Link className="block" href="/about">
             {" "}
