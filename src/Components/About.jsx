@@ -30,7 +30,7 @@ const About = () => {
           <p className="block mt-5">
             Welcome to <span className="font-bold">KABIR</span>, the
             Knowledgeable AI-Based Investigative Robot designed to assist
-            victims of cybercrime.
+            victims of cybercrimes.
           </p>
 
           <p className="block mt-5">
