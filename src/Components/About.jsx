@@ -23,7 +23,7 @@ const About = () => {
     <div className="px-10 lg:px-20 xl:px-40 pt-5 mb-10">
       <Navbar />
       <h1 className="text-4xl mt-20 text-blue font-bold ">ABOUT</h1>
-      <h1 className={`${syne.className} text-6xl md:text-blue `}>KABIR</h1>
+      <h1 className={`${syne.className} text-6xl md:text-blue `}><Link href="https://chat.cybersurakshit.org">KABIR</Link></h1>
 
       <div className="flex justify-between items-start">
         <div className="lg:w-2/3">

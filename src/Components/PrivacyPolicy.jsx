@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
           <Link className="block" href="/about">  About </Link>
           <Link className="block" href="/privacypolicy"> Privacy Policy </Link>
 
-          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md w-1/2`}>KABIR</button>
+          <button className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md w-1/2`}><Link href="https://chat.cybersurakshit.org">KABIR</Link></button>
 
           <button className="bg-black px-3 py-2 rounded-md hover:bg-opacity-60 duration-200 w-1/2 text-white">
             Chat on Whatsapp

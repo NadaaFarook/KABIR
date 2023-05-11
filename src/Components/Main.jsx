@@ -88,7 +88,7 @@ const Main = () => {
         />
         <Image className="absolute z-0 ml-[80px]" src={BG} />
         <button className="bg-white text-black px-20 py-3 rounded-md -mt-2 font-medium shadow-md md:hidden">
-        <Link href="chat.cybersurakshit.org">GET STARTED</Link>
+        <Link href="https://chat.cybersurakshit.org">GET STARTED</Link>
         </button>
       </div>
     </div>
