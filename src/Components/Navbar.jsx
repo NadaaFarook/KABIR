@@ -32,7 +32,7 @@ const Navbar = ({ isWhite }) => {
         {!isWhite && <button
           className={`${syne.className} bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}
         >
-          KABIR
+          <Link href="chat.cybersurakshit.org">KABIR</Link>
         </button>}
         <button className="bg-black text-white px-10 py-2 rounded-md hover:bg-opacity-60 duration-200 ml-10 shadow-md hidden md:inline">
           Chat on Whatsapp
