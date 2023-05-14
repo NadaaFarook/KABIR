@@ -51,7 +51,7 @@ const PrivacyPolicy = () => {
 
       <p className='block mt-5'>Collection and Use of Personal Information When you use KABIR, we never collect any personal information from you, including your name, contact information, and details about your experience with cybercrime or anyother stuff. We are a big supported of privacy and we will never store any of your information.</p>
 
-      <p className='block mt-5'>Disclosure of Personal Information We do not store, sell, rent, or share your personal information with third parties without your consent. However we have used OpenAI API and incase they store any information then we are not liable for that. </p>
+      <p className='block mt-5'>Disclosure of Personal Information We do not store, sell, rent, or share your personal information with third parties without your consent. However we have used OpenAIyarn add @vercel/analytics API and incase they store any information then we are not liable for that. </p>
 
       <p className='block mt-5'>Security We take reasonable measures to protect your personal information from loss, theft, and unauthorised access, disclosure, alteration, and destruction. We use industry-standard encryption technologies and maintain appropriate security measures to ensure the confidentiality and integrity of your personal information.</p>
 
