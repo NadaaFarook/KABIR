@@ -15,7 +15,6 @@ import Pfp6 from "./assets/Pfp6.png";
 import Pfp7 from "./assets/Pfp7.png";
 import Pfp8 from "./assets/Pfp8.png";
 import Pfp9 from "./assets/Pfp9.png";
-import Pfp10 from "./assets/Pfp10.png";
 import Pfp11 from "./assets/Pfp11.png";
 import Pfp12 from "./assets/Pfp12.png";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
