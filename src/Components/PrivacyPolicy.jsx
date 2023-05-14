@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div>
-          <button className={`${syne.className} font-extrabold bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}>KABIR</button>
+          <button className={`${syne.className} font-extrabold bg-blue px-10 py-2 text-white rounded-md hover:bg-opacity-80 duration-200 shadow-md hidden md:inline`}><Link href="https://chat.cybersurakshit.org">KABIR</Link></button>
           <button className='bg-black text-white px-10 py-2 rounded-md hover:bg-opacity-60 duration-200 ml-10 shadow-md hidden md:inline'>Chat on Whatsapp</button>
 
           <RxHamburgerMenu onClick={() => setHamMenu(true)} className="md:hidden text-4xl cursor-pointer hover:bg-black hover:bg-opacity-30 p-1 rounded-sm duration-200" />
@@ -49,9 +49,9 @@ const PrivacyPolicy = () => {
       <h1 className={`${syne.className} text-5xl text-blue mt-20`}>Privacy Policy</h1>
       <p className='block mt-5'>At <span className='font-semibold'>Cyber Surakshit</span>, we take your privacy seriously. This Privacy Policy describes how we collect, use, and disclose personal information that we collect through our AI-based chatbot, KABIR, designed to assist victims of cybercrime. By using KABIR, you agree to the terms of this Privacy Policy.</p>
 
-      <p className='block mt-5'>Collection and Use of Personal Information When you use KABIR, we may collect personal information from you, including your name, contact information, and details about your experience with cybercrime. We use this information to provide you with support and guidance related to cybercrime incidents, and to improve the overall functionality of KABIR.</p>
+      <p className='block mt-5'>Collection and Use of Personal Information When you use KABIR, we never collect any personal information from you, including your name, contact information, and details about your experience with cybercrime or anyother stuff. We are a big supported of privacy and we will never store any of your information.</p>
 
-      <p className='block mt-5'>Disclosure of Personal Information We do not sell, rent, or share your personal information with third parties without your consent, except as required by law. We may disclose your personal information to our trusted service providers and partners who assist us in providing KABIR and delivering our services to you.</p>
+      <p className='block mt-5'>Disclosure of Personal Information We do not store, sell, rent, or share your personal information with third parties without your consent. However we have used OpenAI's API and incase they store any information then we aren't liable for that. </p>
 
       <p className='block mt-5'>Security We take reasonable measures to protect your personal information from loss, theft, and unauthorised access, disclosure, alteration, and destruction. We use industry-standard encryption technologies and maintain appropriate security measures to ensure the confidentiality and integrity of your personal information.</p>
 

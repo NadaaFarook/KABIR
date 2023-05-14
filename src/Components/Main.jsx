@@ -59,24 +59,24 @@ const Main = () => {
 
           <div className="hidden md:block ">
             <button className="bg-white text-black px-20 py-3 rounded-md mt-10 font-medium shadow-md">
-              GET STARTED
+            <Link href="https://chat.cybersurakshit.org">GET STARTED</Link>
             </button>
 
-            <p className="mt-20">Already helped more than 1000+ users 💙</p>
+            <p className="mt-20">Already helped more than 100+ users 💙</p>
 
             <div className="flex gap-3 mt-5 w-3/4 flex-wrap">
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
-              <Image className="w-10" src={Pfp} />
+              <Image className="w-10" src={Pfp1} />
+              <Image className="w-10" src={Pfp2} />
+              <Image className="w-10" src={Pfp3} />
+              <Image className="w-10" src={Pfp4} />
+              <Image className="w-10" src={Pfp5} />
+              <Image className="w-10" src={Pfp6} />
+              <Image className="w-10" src={Pfp7} />
+              <Image className="w-10" src={Pfp8} />
+              <Image className="w-10" src={Pfp9} />
+              <Image className="w-10" src={Pfp10} />
+              <Image className="w-10" src={Pfp11} />
+              <Image className="w-10" src={Pfp12} />
             </div>
           </div>
         </div>
