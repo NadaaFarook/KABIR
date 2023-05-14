@@ -51,13 +51,13 @@ const PrivacyPolicy = () => {
 
       <p className='block mt-5'>Collection and Use of Personal Information When you use KABIR, we never collect any personal information from you, including your name, contact information, and details about your experience with cybercrime or anyother stuff. We are a big supported of privacy and we will never store any of your information.</p>
 
-      <p className='block mt-5'>Disclosure of Personal Information We do not store, sell, rent, or share your personal information with third parties without your consent. However we have used OpenAI's API and incase they store any information then we aren't liable for that. </p>
+      <p className='block mt-5'>Disclosure of Personal Information We do not store, sell, rent, or share your personal information with third parties without your consent. However we have used OpenAI API and incase they store any information then we are not liable for that. </p>
 
       <p className='block mt-5'>Security We take reasonable measures to protect your personal information from loss, theft, and unauthorised access, disclosure, alteration, and destruction. We use industry-standard encryption technologies and maintain appropriate security measures to ensure the confidentiality and integrity of your personal information.</p>
 
       <p className='block mt-5'>Third-Party Links KABIR may contain links to third-party websites or services that are not owned or controlled by us. We are not responsible for the privacy practices or content of these third-party websites or services. We encourage you to review the privacy policies of these third-party websites or services before providing any personal information.</p>
 
-      <p className='block mt-5'>Changes to Privacy Policy We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. We will post a notice on KABIR and update the &#34;last updated&#34; date at the top of this page to indicate when the Privacy Policy was last revised.</p>
+      <p className='block mt-5'>Changes to Privacy Policy We may update this Privacy Policy from time to time to reflect changes in our practices or applicable laws. We will post a notice on KABIR and update the last updated date at the top of this page to indicate when the Privacy Policy was last revised.</p>
 
       <p className='block mt-5'>Contact Us If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at cybersurakshit@gmail.com.</p>
     </div>
