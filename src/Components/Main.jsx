@@ -6,7 +6,18 @@ import Link from "next/link";
 import Logo from "./assets/logo.png";
 import Bot from "./assets/bot.png";
 import BG from "./assets/bg.svg";
-import Pfp from "./assets/pfp.png";
+import Pfp from "./assets/Pfp1.png";
+import Pfp2 from "./assets/Pfp2.png";
+import Pfp3 from "./assets/Pfp3.png";
+import Pfp4 from "./assets/Pfp4.png";
+import Pfp5 from "./assets/Pfp5.png";
+import Pfp6 from "./assets/Pfp6.png";
+import Pfp7 from "./assets/Pfp7.png";
+import Pfp8 from "./assets/Pfp8.png";
+import Pfp9 from "./assets/Pfp9.png";
+import Pfp10 from "./assets/Pfp10.png";
+import Pfp11 from "./assets/Pfp11.png";
+import Pfp12 from "./assets/Pfp12.png";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import Navbar from "./Navbar";
 
@@ -65,7 +76,7 @@ const Main = () => {
             <p className="mt-20">Already helped more than 100+ users 💙</p>
 
             <div className="flex gap-3 mt-5 w-3/4 flex-wrap">
-              <Image className="w-10" src={Pfp1} />
+              <Image className="w-10" src={Pfp} />
               <Image className="w-10" src={Pfp2} />
               <Image className="w-10" src={Pfp3} />
               <Image className="w-10" src={Pfp4} />
@@ -74,7 +85,6 @@ const Main = () => {
               <Image className="w-10" src={Pfp7} />
               <Image className="w-10" src={Pfp8} />
               <Image className="w-10" src={Pfp9} />
-              <Image className="w-10" src={Pfp10} />
               <Image className="w-10" src={Pfp11} />
               <Image className="w-10" src={Pfp12} />
             </div>
